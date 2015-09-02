@@ -1,0 +1,13 @@
+# Eclipse
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+
+# Locally stored "Eclipse launch configurations"
+*.launch
