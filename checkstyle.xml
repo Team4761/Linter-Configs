@@ -1,0 +1,56 @@
+<!--
+TODO: Documentation
+For now, just search http://checkstyle.sourceforge.net/
+-->
+
+<module name="Checker">
+	<module name="JavadocPackage"/>
+	<module name="TreeWalker">
+		<module name="AbbreviationAsWordInName">
+			<property name="allowedAbbreviationLength" value="1"/>
+			<property name="ignoreStatic" value="false"/>
+		</module>
+		<module name="AnnotationLocation">
+			<property name="allowSamelineSingleParameterlessAnnotation" value="false"/>
+		</module>
+		<module name="ArrayTrailingComma"/>
+		<module name="ArrayTypeStyle"/>
+		<module name="AvoidInlineConditionals"/>
+		<module name="AvoidNestedBlocks"/>
+		<module name="AvoidStarImport"/>
+		<module name="BooleanExpressionComplexity"/>
+		<module name="CyclomaticComplexity"/>
+		<module name="DefaultComesLast"/>
+		<module name="EmptyCatchBlock"/>
+		<module name="EmptyStatement"/>
+		<module name="FallThrough"/>
+		<module name="FinalClass"/>
+		<module name="FinalLocalVariable"/>
+		<module name="HiddenField"/>
+		<module name="HideUtilityClassConstructor"/>
+		<module name="IllegalCatch"/>
+		<module name="IllegalThrows"/>
+		<module name="JavadocMethod"/>
+		<module name="JavadocPackage"/>
+		<module name="MissingDeprecated"/>
+		<module name="MissingOverride"/>
+		<module name="MissingSwitchDefault"/>
+		<module name="ModifiedControlVariable"/>
+		<module name="MultipleVariableDeclarations"/>
+		<module name="MutableException"/>
+		<module name="NeedBraces"/>
+		<module name="NoWhitespaceAfter"/>
+		<module name="OneStatementPerLine"/>
+		<module name="OverloadMethodsDeclarationOrder"/>
+		<module name="PackageAnnotation"/>
+		<module name="PackageDeclaration"/>
+		<module name="RedundantImport"/>
+		<module name="RequireThis"/>
+		<module name="SimplifyBooleanExpression"/>
+		<module name="SimplifyBooleanReturn"/>
+		<module name="StringLiteralEquality"/>
+		<module name="NoClone"/>
+		<module name="UnnecessaryParentheses"/>
+		<module name="UnusedImports"/>
+	</module>
+</module>
